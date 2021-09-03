@@ -7,7 +7,7 @@
 }
 
 :root {
-    --gradient: linear-gradient(90deg, #251d2c, #1e1e28,#f36891);
+    --gradient: linear-gradient(90deg, #413150, #1e1e28,#30243a);
 }
 
 @keyframes bg-animation {
@@ -83,8 +83,9 @@ html,body{
     justify-content: center;
 }
 
-.timer h3{
-    font-size: 100px;
+.timer span{
+    font-size: 70px;
+    font-weight: 700;
 
     background: linear-gradient(to top, #f65e84 50%, #d64f6f 50%);
     -webkit-text-fill-color: transparent;
@@ -98,6 +99,10 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.social-media div{
+    cursor: pointer;
 }
 
 
